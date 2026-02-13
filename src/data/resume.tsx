@@ -234,7 +234,7 @@ export const DATA = {
         },
       ],
       image: "/project1.png",
-      // video: "https://cdn.llm.report/openai-demo.mp4",
+      video: undefined,
     },
     {
       title: "AI Rental Intelligence Platform",
@@ -288,8 +288,7 @@ export const DATA = {
         },
       ],
       image: "/rental.png",
-      // video:
-      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      video: undefined,
     },
       {
       title: "Medical Diagnosis",
@@ -338,8 +337,7 @@ technologies: [
         },
       ],
       image: "/md.png",
-      // video:
-      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      video: undefined,
     },
     {
       title: "Naan Kabob",
@@ -363,8 +361,7 @@ technologies: [
         },
       ],
       image: "/nk.png",
-    //   video:
-    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      video: undefined,
     },
     {
       title: "Clear My Mind",
@@ -394,7 +391,7 @@ technologies: [
         // },
       ],
       image: "/cmm.png",
-      // video: "https://cdn.magicui.design/bento-grid.mp4",
+      video: undefined,
     },
 
   ],
@@ -403,12 +400,13 @@ technologies: [
       title: "International Conference on Next-Gen Computing and Communication Systems ICNCS-2025 ",
       dates: "Jan 2026",
       location: "Jaipur, India",
-      // description:
-      //   "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
+      description:
+        "Presented a research paper on next-generation computing and communication systems at ICNCS-2025.",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [  {
+          title: "Source",
           type: "Source",
           href: "https://link.springer.com/chapter/10.1007/978-3-032-12544-6_4?error=cookies_not_supported&code=d076da61-5769-426e-b1f2-a6eff6211501",
           icon: <Icons.github className="size-3" />,
@@ -424,6 +422,7 @@ technologies: [
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [ {
+          title: "Source",
           type: "Source",
           href: "https://drive.google.com/drive/folders/11oJ6F4-7GCtXIfc-u3NEnn60zAG09sVQ",
           icon: <Icons.github className="size-3" />,
