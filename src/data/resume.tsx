@@ -83,6 +83,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Tata Consultancy Services (TCS)",
+      href: "",
+      badges: [],
+      location: "",
+      title: "",
+      logoUrl: "/tcs1.png",
+      start: "May 2026",
+      end: "Present",
+      description:
+        "Working as a software engineer at Tata Consultancy Services (TCS).",
+    },
+    {
       company: "Bee Online",
       href: "https://www.beeonline.co.in/",
       badges: [],
@@ -90,7 +102,7 @@ export const DATA = {
       title: "React Developer",
       logoUrl: "/bee.png",
       start: "Aug 2025",
-      end: "Present",
+      end: "March 2026",
       description:
         "Built and delivered 3+ production-grade websites using React, Next.js, Vue.js, and SCSS, across e-commerce, hospitality, and mental health domains.Improved development efficiency by ~25–30% through reusable component architecture, effective state management, and clean, scalable frontend patterns.Integrated RESTful APIs with Node.js backends, enabling dynamic content, real-time updates, and seamless frontend–backend communication.",
     },
@@ -190,7 +202,7 @@ export const DATA = {
     // },
   ],
   projects: [
-        {
+    {
       title: "Dataset Quality Analyzer",
       href: "https://dataset-quality-analyzer-ohxc.vercel.app/",
       dates: "AI/ML Project",
@@ -198,15 +210,15 @@ export const DATA = {
       description:
         "Designed and built a modality-aware dataset auditing engine that evaluates structural integrity, statistical reliability, and training-readiness of machine learning datasets before model development.",
       fullDescription:
-  "• Built a modality-aware Dataset Quality Analyzer to audit machine learning datasets before training.\n\n" +
-  "• Automatically detects structural issues such as missing values, schema inconsistencies, and empty text samples.\n\n" +
-  "• Identifies exact duplicates and business-key duplicates for structured datasets.\n\n" +
-  "• Uses transformer-based sentence embeddings for semantic near-duplicate detection in text datasets.\n\n" +
-  "• Flags label imbalance, missing label columns, and potential train–test data leakage.\n\n" +
-  "• Runs toxicity detection to identify unsafe or harmful text samples.\n\n" +
-  "• Implements a weighted Dataset Health Score (0–100) to measure overall training readiness.\n\n" +
-  "• Designed with a modular analyzer architecture and embedding caching for performance optimization.\n\n" +
-  "• Generates human-readable insights and actionable recommendations for data cleanup and improvement.",
+        "• Built a modality-aware Dataset Quality Analyzer to audit machine learning datasets before training.\n\n" +
+        "• Automatically detects structural issues such as missing values, schema inconsistencies, and empty text samples.\n\n" +
+        "• Identifies exact duplicates and business-key duplicates for structured datasets.\n\n" +
+        "• Uses transformer-based sentence embeddings for semantic near-duplicate detection in text datasets.\n\n" +
+        "• Flags label imbalance, missing label columns, and potential train–test data leakage.\n\n" +
+        "• Runs toxicity detection to identify unsafe or harmful text samples.\n\n" +
+        "• Implements a weighted Dataset Health Score (0–100) to measure overall training readiness.\n\n" +
+        "• Designed with a modular analyzer architecture and embedding caching for performance optimization.\n\n" +
+        "• Generates human-readable insights and actionable recommendations for data cleanup and improvement.",
 
       technologies: [
         "Next.js",
@@ -243,37 +255,37 @@ export const DATA = {
       active: true,
       description:
         "An end-to-end ML-powered rental analytics system designed to predict fair market rent, detect pricing anomalies, and provide explainable market intelligence across major Indian cities.",
- fullDescription:
-  "• Built a production-grade AI Rental Intelligence Platform for rental valuation and explainable market analytics.\n\n" +
-  " • Developed a LightGBM regression engine with advanced feature engineering (target encoding, categorical handling, log optimization).\n\n" +
-  " • Implemented pricing anomaly detection using model residuals to flag ±15% market deviations.\n\n" +
-  " • Delivered retrieval-augmented rental insights via TF-IDF vector indexing and cosine similarity search.\n\n" +
-  " • Designed a scalable microservices architecture (FastAPI + Express + Next.js) with Docker-based deployment and typed REST APIs.\n\n" +
-   "• Automated ML training, insight generation, and vector indexing pipelines for reproducibility.",
+      fullDescription:
+        "• Built a production-grade AI Rental Intelligence Platform for rental valuation and explainable market analytics.\n\n" +
+        " • Developed a LightGBM regression engine with advanced feature engineering (target encoding, categorical handling, log optimization).\n\n" +
+        " • Implemented pricing anomaly detection using model residuals to flag ±15% market deviations.\n\n" +
+        " • Delivered retrieval-augmented rental insights via TF-IDF vector indexing and cosine similarity search.\n\n" +
+        " • Designed a scalable microservices architecture (FastAPI + Express + Next.js) with Docker-based deployment and typed REST APIs.\n\n" +
+        "• Automated ML training, insight generation, and vector indexing pipelines for reproducibility.",
 
-    technologies: [
-  "Next.js",
-  "TypeScript",
-  "Node.js",
-  "Express",
-  "Zod",
-  "Axios",
-  "FastAPI",
-  "Python",
-  "Pydantic",
-  "LightGBM",
-  "Scikit-learn",
-  "Pandas",
-  "NumPy",
-  "TfidfVectorizer",
-  "Joblib",
-  "Uvicorn",
-  "OpenAI API ",
-  "Docker",
-  "Docker Compose",
-  "PowerShell Scripts",
-  "Chroma/FAISS-ready index (TF-IDF)",
-],
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "Zod",
+        "Axios",
+        "FastAPI",
+        "Python",
+        "Pydantic",
+        "LightGBM",
+        "Scikit-learn",
+        "Pandas",
+        "NumPy",
+        "TfidfVectorizer",
+        "Joblib",
+        "Uvicorn",
+        "OpenAI API ",
+        "Docker",
+        "Docker Compose",
+        "PowerShell Scripts",
+        "Chroma/FAISS-ready index (TF-IDF)",
+      ],
 
       links: [
         {
@@ -281,7 +293,7 @@ export const DATA = {
           href: "https://rental-intelligence.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
-           {
+        {
           type: "Source",
           href: "https://github.com/sujal666/Rental-Intelligence",
           icon: <Icons.github className="size-3" />,
@@ -290,39 +302,39 @@ export const DATA = {
       image: "/rental.png",
       video: undefined,
     },
-      {
+    {
       title: "Medical Diagnosis",
       href: "https://medicaldiagnosis-project.streamlit.app/",
       dates: "AI/ML",
       active: true,
       description:
         "Built end-to-end RAG pipeline: PDF ingestion → chunking → Gemini embeddings → Pinecone indexing with automatic index provisioning and dimension guardrails.",
- fullDescription:
-  "• Built end-to-end RAG pipeline: PDF ingestion → chunking → Gemini embeddings → Pinecone indexing with automatic index provisioning and dimension guardrails.\n\n" +
-  " • Implemented RBAC flows where patient uploads/queries are enforced server-side and doctors have read-only access to patient diagnosis histories.\n\n" +
-  " • Designed resilient error handling for external providers (Gemini/Pinecone) with user-friendly HTTP errors and lazy imports to reduce startup failures.\n\n" +
-  " • Persisted full audit trail: report metadata and per-question diagnosis history with sources and timestamps for later review.\n\n" +
-  " • Streamlit dashboards tailored to roles, reusing a shared API URL for local/remote deployments.\n\n " +
-  " • Deployed using stremlit cloud and render.",
+      fullDescription:
+        "• Built end-to-end RAG pipeline: PDF ingestion → chunking → Gemini embeddings → Pinecone indexing with automatic index provisioning and dimension guardrails.\n\n" +
+        " • Implemented RBAC flows where patient uploads/queries are enforced server-side and doctors have read-only access to patient diagnosis histories.\n\n" +
+        " • Designed resilient error handling for external providers (Gemini/Pinecone) with user-friendly HTTP errors and lazy imports to reduce startup failures.\n\n" +
+        " • Persisted full audit trail: report metadata and per-question diagnosis history with sources and timestamps for later review.\n\n" +
+        " • Streamlit dashboards tailored to roles, reusing a shared API URL for local/remote deployments.\n\n " +
+        " • Deployed using stremlit cloud and render.",
 
-technologies: [
-"FastAPI",
-"Python",
-"Pydantic",
-"Uvicorn",
-"Streamlit",
-"Requests",
-"MongoDB (PyMongo)",
-"Pinecone Vector DB",
-"Google Generative AI Embeddings",
-"Groq LLaMA 3.1 (ChatGroq)",
-"LangChain (loaders, splitters, chains)",
-"PyPDF / PyPDF2",
-"python-dotenv",
-"bcrypt (passlib)",
-"HTTP Basic Auth (FastAPI Security)",
-"AsyncIO",
-],
+      technologies: [
+        "FastAPI",
+        "Python",
+        "Pydantic",
+        "Uvicorn",
+        "Streamlit",
+        "Requests",
+        "MongoDB (PyMongo)",
+        "Pinecone Vector DB",
+        "Google Generative AI Embeddings",
+        "Groq LLaMA 3.1 (ChatGroq)",
+        "LangChain (loaders, splitters, chains)",
+        "PyPDF / PyPDF2",
+        "python-dotenv",
+        "bcrypt (passlib)",
+        "HTTP Basic Auth (FastAPI Security)",
+        "AsyncIO",
+      ],
 
       links: [
         {
@@ -330,7 +342,7 @@ technologies: [
           href: "https://medicaldiagnosis-project.streamlit.app/",
           icon: <Icons.globe className="size-3" />,
         },
-           {
+        {
           type: "Source",
           href: "https://github.com/sujal666/medical-diagnosis",
           icon: <Icons.github className="size-3" />,
@@ -405,12 +417,12 @@ technologies: [
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [  {
-          title: "Source",
-          type: "Source",
-          href: "https://link.springer.com/chapter/10.1007/978-3-032-12544-6_4?error=cookies_not_supported&code=d076da61-5769-426e-b1f2-a6eff6211501",
-          icon: <Icons.github className="size-3" />,
-        },],
+      links: [{
+        title: "Source",
+        type: "Source",
+        href: "https://link.springer.com/chapter/10.1007/978-3-032-12544-6_4?error=cookies_not_supported&code=d076da61-5769-426e-b1f2-a6eff6211501",
+        icon: <Icons.github className="size-3" />,
+      },],
     },
     {
       title: "International Conference on Emerging Trends in Engineering, Science and Technology",
@@ -421,12 +433,12 @@ technologies: [
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [ {
-          title: "Source",
-          type: "Source",
-          href: "https://drive.google.com/drive/folders/11oJ6F4-7GCtXIfc-u3NEnn60zAG09sVQ",
-          icon: <Icons.github className="size-3" />,
-        },],
+      links: [{
+        title: "Source",
+        type: "Source",
+        href: "https://drive.google.com/drive/folders/11oJ6F4-7GCtXIfc-u3NEnn60zAG09sVQ",
+        icon: <Icons.github className="size-3" />,
+      },],
     },
     {
       title: "AVISHKAR 2023-24",
@@ -438,7 +450,7 @@ technologies: [
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
       links: [
-         {
+        {
           title: "Github",
           icon: <Icons.github className="size-3" />,
           href: "https://www.linkedin.com/posts/sujalpoojari_avishkar-avishkarcompetition-posterdesign-share-7167704611317792768-nffd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOpQW0BMdPxjI681SXo6Q0HGrrlF6R8M4I",
